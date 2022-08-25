@@ -1,0 +1,112 @@
+
+body{
+    font-family: tahoma,arial, sans-serif;
+    padding: 0;
+    margin:0;
+}
+.principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-top{
+    height: 50px;
+    background-color: #14232f;
+    position: relative;
+
+}
+
+.logotipo{
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+.navegation{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+}
+.navegation li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    margin-right: 20px;
+    
+
+    
+}
+
+.navegation a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #425564;
+    transition: .3s linear;
+    
+}
+.navegation a:hover{
+    color: white;
+}
+
+.portfolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+.portfolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+.portfolio p{
+    font-size: 16px;
+    color: #555;
+    line-height: 2;
+}
+
+.gallery{
+    color:#555; 
+    padding:0 100px 50px;
+    overflow: auto;
+
+}
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.about{
+    background-image: url(./imagens/bg_detalhe.png);
+    background-position: bottom right;
+    background-repeat:no-repeat;
+    background-color: #003d52;
+    padding:100px;
+    color: white;
+
+}
+h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+.about p{
+    width: 70%;
+    line-height: 1.5;
+}
+
+.rodape{
+    margin-top: 100px;
+    background-color: #0b171f;
+    text-align: center;
+    color: #6f8597;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 25px;
+    font-size: 12px;
+}
